@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "krakenitems:zircon_ore",
+    "krakenitems:zircon_block",
+    "krakenitems:deepslate_zircon_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "krakenitems:zircon_block"
+    }
+  ],
+  "result": {
+    "item": "krakenitems:zircon",
+    "count": 9
+  }
+}

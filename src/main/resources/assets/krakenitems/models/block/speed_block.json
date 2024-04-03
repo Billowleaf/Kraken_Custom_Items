@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "krakenitems:block/speed_block"
+  }
+}

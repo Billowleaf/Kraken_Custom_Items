@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "zircon",
+  "ingredient": {
+  "item": "krakenitems:raw_zircon"
+  },
+  "result": "krakenitems:zircon"
+
+}

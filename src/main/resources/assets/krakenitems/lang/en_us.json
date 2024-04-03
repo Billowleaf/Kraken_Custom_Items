@@ -1,0 +1,15 @@
+{
+  "item.krakenitems.zircon": "Zircon",
+  "item.krakenitems.raw_zircon": "Raw Zircon",
+  "item.krakenitems.dildo_sword": "Dildo Sword",
+  "item.krakenitems.eight_ball": "Eight Ball",
+
+  "block.krakenitems.zircon_block": "Block of Zircon",
+  "block.krakenitems.zircon_ore": "Zircon Ore",
+  "block.krakenitems.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.krakenitems.speed_block": "Speed Block",
+
+
+
+  "itemGroup.tutorial_tab": "Zircon Tutorial Tab"
+}

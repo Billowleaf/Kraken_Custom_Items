@@ -1,6 +1,8 @@
 package net.billowleaf.krakenitems;
 
 import com.mojang.logging.LogUtils;
+import net.billowleaf.krakenitems.block.ModBlocks;
+import net.billowleaf.krakenitems.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,13 +15,17 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod {
+@Mod(KrakenItems.MOD_ID)
+public class KrakenItems {
     public static final String MOD_ID = "krakenitems";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public TutorialMod()
+    public KrakenItems()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
